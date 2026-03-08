@@ -1,0 +1,31 @@
+.hero {
+  display: block;
+  margin-top: 24px;
+}
+
+.hero-text {
+  width: 100%;
+}
+
+.hero-text h1 {
+  font-size: 28px;
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.floating-burger {
+  margin-top: 5px;
+  float: right;
+  width: 200px;
+  height: auto;
+}
+
+.hero-text p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: var(--text-secondary);
+}
+
+.hero-text span {
+  color: var(--button-primary);
+}
