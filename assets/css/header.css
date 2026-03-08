@@ -75,6 +75,94 @@ nav {
   z-index: 999;
 }
 
-/* .btn-peca-agora:hover {
-  background-color: var(--button-primary-hover);
-} */
+@media screen and (min-width: 1024px) {
+  .main-header {
+    margin: 0 55px;
+  }
+  .navigation-menu {
+    width: 380px;
+  }
+
+  .navigation-menu label {
+    display: none;
+  }
+
+  .navigation-menu nav {
+    display: block;
+  }
+
+  .navigation-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+
+  .list-links {
+    margin: 0;
+    box-shadow: none;
+  }
+
+  .list-links li a {
+    color: var(--text-primary);
+  }
+
+  .list-links a:hover {
+    color: var(--button-primary-hover);
+  }
+
+  .list-links .selection {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-header {
+    height: 105px;
+    padding: 48px 100px;
+  }
+
+  .main-header .logo img {
+    display: inline-block;
+    height: auto;
+    width: 230px;
+  }
+
+  .navigation-menu {
+    width: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .list-links li a {
+    display: flex;
+    font-size: 28px;
+    margin-right: 25px;
+  }
+
+  .btn-peca-agora {
+    display: flex;
+    position: static;
+    padding: 0 35px;
+    width: 250px;
+    height: 55px;
+    font-size: 24px;
+    justify-content: space-between;
+  }
+
+  .btn-peca-agora img {
+    width: 30px;
+  }
+
+  .btn-peca-agora:hover {
+    background-color: var(--button-primary-hover);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  header {
+    padding: 38px 160px;
+  }
+}
+
