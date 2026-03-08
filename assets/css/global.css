@@ -1,28 +1,32 @@
 :root {
-  /* Background Colors */
-  --bg-main: #0d0d0d;
-  --bg-card: #1a1a1a;
-  --bg-input: #111111;
+  /* ===== BACKGROUND ===== */
+  --bg-primary: #8e1f14;
+  --bg-secondary: #a52a1a;
+  --bg-gradient-start: #e77528;
+  --bg-gradient-end: #8e1f14;
 
-  /* Brand & Neon Colors */
-  --neon-lime: #ccff00;
-  --neon-purple: #6200ee;
-  --neon-purple-low: rgba(98, 0, 238, 0.3);
+  /* ===== CARDS ===== */
+  --card-bg: #f5e6c8;
+  --card-bg-soft: #ffdfa3;
+  --card-border: #e9c98a;
 
-  /* Text Colors */
-  --text-primary: #f5f5f5;
-  --text-secondary: #a0a0a0;
-  --text-dark: #000000;
+  /* ===== BUTTONS ===== */
+  --button-primary: #ffc247;
+  --button-primary-hover: #ffb703;
+  --button-secondary: #f06a22;
 
-  /* Status Colors */
-  --error: #ff3131;
-  --success: #ccff00;
+  /* ===== TEXT ===== */
+  --text-primary: #ffffff;
+  --text-secondary: #f5e6c8;
+  --text-dark: #3a1b14;
 
-  /* Effects */
-  --glass-effect: rgba(13, 13, 13, 0.8);
-  --border-radius-sm: 8px;
-  --border-radius-md: 16px;
-  --border-radius-lg: 50px;
+  /* ===== ICONS / ACCENTS ===== */
+  --accent-orange: #e65a1f;
+  --accent-yellow: #ffd166;
+  --accent-light: #fff3d6;
+
+  /* ===== SHADOW ===== */
+  --shadow-soft: rgba(0, 0, 0, 0.15);
 }
 
 * {
@@ -32,5 +36,16 @@
 }
 
 body {
-  background-color: var(--bg-main);
+  background: linear-gradient(
+    180deg,
+    var(--bg-gradient-start),
+    var(--bg-gradient-end)
+  );
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }

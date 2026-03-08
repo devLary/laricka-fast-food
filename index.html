@@ -3,25 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Laricka</title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <a class="logo" href="index.html" title="voltar para a página inicial">
-        <p>Laricka</p></a
-      >
+        <img src="assets/img/logo.png" alt="logo"
+      /></a>
 
       <div class="navigation-menu">
-        <label for="menu"
-          ><img src="/assets/img/menu-neon.png" alt="menu"
+        <label for="menu" class="menu"
+          ><img src="/assets/img/menu.png" alt="menu"
         /></label>
         <input type="checkbox" id="menu" hidden />
 
         <nav>
           <ul class="list-links">
+            <li class="selection">
+              <a href="index.html" target="_blank" title="pagina inicial"
+                >Home</a
+              >
+            </li>
             <li>
-              <a href="#" target="_blank" title="Cardapio">Cardapio</a>
+              <a href="#" target="_blank" title="Cardapio">Cardápio</a>
             </li>
             <li>
               <a href="#" target="_blank" title="Unidades">Unidades</a>
@@ -32,7 +41,7 @@
           </ul>
         </nav>
         <a class="btn-peca-agora" href="#">
-          <img src="icone-carrinho.png" alt="" /> Peça Agora
+          <img src="assets/img/icon-cart.png" alt="" /> Peça Agora
         </a>
       </div>
     </header>

@@ -1,0 +1,80 @@
+.main-header {
+  display: flex;
+  height: 75px;
+  margin: 0 24px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 25px;
+  flex-direction: row;
+
+  position: relative;
+  border-bottom: 1px solid var(--bg-secondary);
+  box-shadow: 0 5px 5px -6px rgba(0, 0, 0, 0.4);
+}
+
+.main-header .logo img {
+  display: inline-block;
+  height: auto;
+  width: 170px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--neon-purple-low);
+}
+
+nav {
+  display: none;
+}
+
+.list-links {
+  list-style: none;
+  box-shadow: 0 5px 5px -6px rgba(0, 0, 0, 0.4);
+  padding-bottom: 5px;
+}
+
+.list-links li {
+  margin: 12px 8px;
+}
+
+.list-links li a {
+  color: var(--text-secondary);
+  font-size: 20px;
+}
+
+.list-links .selection {
+  margin: 10px 0 0;
+  border-left: 5px solid var(--button-primary);
+  border-radius: 3px;
+}
+
+.list-links .selection a {
+  margin-left: 5px;
+  color: var(--button-primary);
+  font-size: 22px;
+}
+
+.btn-peca-agora {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: var(--button-primary);
+  color: var(--bg-gradient-end);
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: bold;
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+/* .btn-peca-agora:hover {
+  background-color: var(--button-primary-hover);
+} */
