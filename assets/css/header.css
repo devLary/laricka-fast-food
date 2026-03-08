@@ -6,7 +6,6 @@
   align-items: center;
   padding: 48px 25px;
   flex-direction: row;
-
   position: relative;
   border-bottom: 1px solid var(--bg-secondary);
   box-shadow: 0 5px 5px -6px rgba(0, 0, 0, 0.4);
@@ -24,7 +23,11 @@ input[type="checkbox"]:checked ~ nav {
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: var(--neon-purple-low);
+  background-color: var(--text-dark);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 99;
+  border: 1px solid var(--text-secondary);
 }
 
 nav {
@@ -46,14 +49,14 @@ nav {
   font-size: 20px;
 }
 
-.list-links .selection {
+/* .list-links .selection {
   margin: 10px 0 0;
   border-left: 5px solid var(--button-primary);
   border-radius: 3px;
-}
+} */
 
 .list-links .selection a {
-  margin-left: 5px;
+  /* margin-left: 5px; */
   color: var(--button-primary);
   font-size: 22px;
 }
@@ -137,7 +140,7 @@ nav {
 
   .list-links li a {
     display: flex;
-    font-size: 28px;
+    font-size: 24px;
     margin-right: 25px;
   }
 
