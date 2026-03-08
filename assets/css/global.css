@@ -2,8 +2,10 @@
   /* ===== BACKGROUND ===== */
   --bg-primary: #8e1f14;
   --bg-secondary: #a52a1a;
+  --bg-tertiary: radial-gradient(circle, #631b0e 0%, #300803 100%);
   --bg-gradient-start: #e77528;
   --bg-gradient-end: #8e1f14;
+  --bg-black: #000000;
 
   /* ===== CARDS ===== */
   --card-bg: #f5e6c8;
@@ -36,11 +38,12 @@
 }
 
 body {
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     var(--bg-gradient-start),
     var(--bg-gradient-end)
-  );
+  ); */
+  background: var(--bg-tertiary);
   min-height: 100vh;
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -48,4 +51,28 @@ body {
 
 a {
   text-decoration: none;
+}
+
+section {
+  width: 345px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    width: 670px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  section {
+    width: 900px;
+  
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
+  }
 }
