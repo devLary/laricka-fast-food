@@ -30,6 +30,7 @@
 
 .hero-text span {
   color: var(--button-primary);
+  font-weight: 900;
 }
 .hr-hero {
   margin: 15px 0 20px;
