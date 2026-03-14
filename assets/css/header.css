@@ -23,7 +23,7 @@ input[type="checkbox"]:checked ~ nav {
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: var(--text-dark);
+  background-color: var(--bg-gradient-end);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   z-index: 99;
@@ -61,13 +61,13 @@ nav {
   font-size: 22px;
 }
 
-.btn-peca-agora {
+/* .btn-peca-agora {
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   background-color: var(--button-primary);
-  color: var(--bg-gradient-end);
+  color: var(--text-tertiary);
   padding: 12px 24px;
   border-radius: 50px;
   font-weight: bold;
@@ -76,6 +76,10 @@ nav {
   bottom: 20px;
   right: 20px;
   z-index: 999;
+} */
+
+.btn-peca-agora {
+  display: none;
 }
 
 @media screen and (min-width: 1024px) {
@@ -152,6 +156,11 @@ nav {
     height: 55px;
     font-size: 24px;
     justify-content: space-between;
+    align-items: center;
+    background-color: var(--button-primary);
+    color: var(--text-tertiary);
+    border-radius: 50px;
+    font-weight: 900;
   }
 
   .btn-peca-agora img {
@@ -168,4 +177,3 @@ nav {
     padding: 38px 160px;
   }
 }
-

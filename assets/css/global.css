@@ -4,7 +4,7 @@
   --bg-secondary: #a52a1a;
   --bg-tertiary: radial-gradient(circle, #631b0e 0%, #300803 100%);
   --bg-gradient-start: #e77528;
-  --bg-gradient-end: #8e1f14;
+  --bg-gradient-end: #3a1b14;
   --bg-black: #000000;
 
   /* ===== CARDS ===== */
@@ -20,7 +20,8 @@
   /* ===== TEXT ===== */
   --text-primary: #ffffff;
   --text-secondary: #f5e6c8;
-  --text-dark: #3a1b14;
+  --text-tertiary: #8e1f14;
+  --text-dark: #5c160f;
 
   /* ===== ICONS / ACCENTS ===== */
   --accent-orange: #e65a1f;
@@ -51,6 +52,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+p, span {
+  font-weight: 500;
 }
 
 section {

@@ -24,6 +24,7 @@
 .hero-text p {
   margin-top: 10px;
   font-size: 14px;
+  line-height: 1.7;
   color: var(--text-secondary);
 }
 
@@ -31,7 +32,7 @@
   color: var(--button-primary);
 }
 .hr-hero {
-  margin: 15px 0 24px;
+  margin: 15px 0 20px;
   width: 90px;
   border: 2px solid var(--button-primary);
   border-radius: 2px;
@@ -40,7 +41,6 @@
 @media screen and (min-width: 768px) {
   .hero-text h1 {
     font-size: 32px;
-    color: var(--text-primary);
     line-height: 1.6;
     width: 380px;
   }
@@ -65,7 +65,6 @@
   }
   .hero-text h1 {
     font-size: 35px;
-    color: var(--text-primary);
     line-height: 1.6;
     width: 420px;
   }
@@ -90,7 +89,6 @@
 
   .hero-text h1 {
     font-size: 40px;
-    color: var(--text-primary);
     line-height: 1.6;
     width: 600px;
   }
