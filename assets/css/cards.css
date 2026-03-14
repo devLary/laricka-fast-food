@@ -96,7 +96,7 @@
   margin: 0 auto 24px;
 }
 
-.filter a {
+.filter button {
   /* 
   amarelo:
   
@@ -115,13 +115,14 @@
   background-color: var(--bg-gradient-end);
   color: var(--text-secondary);
   border: 2px solid var(--text-secondary);
-  padding: 8px 20px;
+  padding: 10px 22px;
   border-radius: 50px;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 16px;
   text-align: center;
 }
 
-.filter a:last-child {
+.filter button:last-child {
   grid-column: span 2;
   justify-self: center;
 }
