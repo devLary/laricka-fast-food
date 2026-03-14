@@ -93,17 +93,14 @@
   grid-template-columns: 1fr 1fr;
   gap: 12px;
   width: 300px;
-  margin: 0 auto 24px;
+  margin: 0 auto 28px;
 }
 
 .filter button {
-  /* 
-  amarelo:
-  
   background-color: var(--button-primary);
   color: var(--text-tertiary);
-  border: 2px solid var(--button-primary-hover); */
-
+  border: 2px solid var(--button-primary-hover);
+  font-weight: bold;
   /* 
   bege:
 
@@ -111,13 +108,17 @@
   color: var(--text-tertiary);
   border: 2px solid var(--button-primary); */
 
-  border: none;
+  /* 
+  marrom:
+
   background-color: var(--bg-gradient-end);
   color: var(--text-secondary);
   border: 2px solid var(--text-secondary);
+  font-weight: 500;  
+ */
+  border: none;
   padding: 10px 22px;
   border-radius: 50px;
-  font-weight: 500;
   font-size: 16px;
   text-align: center;
 }
