@@ -68,6 +68,7 @@ nav {
 
   background-color: var(--button-primary);
   color: var(--text-tertiary);
+  border: 2px solid var(--button-primary-hover);
   padding: 12px 24px;
   border-radius: 50px;
   font-weight: bold;
